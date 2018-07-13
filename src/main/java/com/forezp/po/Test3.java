@@ -1,7 +1,9 @@
 package com.forezp.po;
 
-import java.util.Date;
+import lombok.Data;
 
+import java.util.Date;
+@Data
 public class Test3 {
     private Integer id;
 

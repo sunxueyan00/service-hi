@@ -1,11 +1,12 @@
 package com.forezp.mapper;
 
-import cn.itcast.ssm.po.Test4;
-import cn.itcast.ssm.po.Test4Example;
+import com.forezp.po.Test4;
+import com.forezp.po.Test4Example;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
+@Mapper
 public interface Test4Mapper {
     int countByExample(Test4Example example);
 

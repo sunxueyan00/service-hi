@@ -1,5 +1,8 @@
 package com.forezp.po;
 
+import lombok.Data;
+
+@Data
 public class Test1 {
     private Integer id;
 
