@@ -2,11 +2,11 @@ package com.forezp.mapper;
 
 import com.forezp.po.Test5;
 import com.forezp.po.Test5Example;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
-@Mapper
+@Repository
 public interface Test5Mapper {
     int countByExample(Test5Example example);
 

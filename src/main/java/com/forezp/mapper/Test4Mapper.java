@@ -2,11 +2,11 @@ package com.forezp.mapper;
 
 import com.forezp.po.Test4;
 import com.forezp.po.Test4Example;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
-@Mapper
+@Repository
 public interface Test4Mapper {
     int countByExample(Test4Example example);
 
